@@ -16,10 +16,10 @@ const App = () => {
   return (
     <div className="container">
       <NavBar />
-      <SignIn />
+      {/* <SignIn /> */}
       <SignUp />
-      <UserDashBoard />
-      <AdminDashBoard />
+      {/* <UserDashBoard />
+      <AdminDashBoard /> */}
     </div>
   );
 }

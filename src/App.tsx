@@ -16,8 +16,8 @@ const App = () => {
   return (
     <div className="container">
       <NavBar />
-      {/* <SignIn /> */}
-      <SignUp />
+      <SignIn />
+      {/* <SignUp /> */}
       {/* <UserDashBoard />
       <AdminDashBoard /> */}
     </div>

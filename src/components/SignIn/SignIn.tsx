@@ -14,7 +14,11 @@ const SignIn = () => {
                         <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
                         <label htmlFor="floatingPassword">Password</label>
                     </div>
-                    <button className="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
+                    <button className="w-100 btn btn-lg btn-primary mb-5" type="submit">Sign In</button>
+                    <div className="form-floating mb-2">
+                    <p>Not a member yet?</p>
+                    </div>
+                    <button className="w-100 btn btn-lg btn-outline-secondary" type="submit">Sign Up</button>
                     <p className="mt-5 mb-3 text-muted">&copy; 2022</p>
                 </form>
             </main>

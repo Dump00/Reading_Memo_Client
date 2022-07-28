@@ -57,7 +57,7 @@ const AdminDashBoard: React.FC<{bookList: Book[]}> = ({bookList}) => {
                 <div className="mb-3">
                     <input value={pagesIn} onChange={handlePagesChange} type="number" className="form-control" id="bkPages" placeholder="Pages" />
                 </div>
-                <button type="button" onClick={addNewBook} className="btn btn-parimary col-12">Submit</button>
+                <button type="button" onClick={addNewBook} className="w-100 btn btn-lg btn-dark col-12">Submit</button>
                 </form>
             </div>
         </div>

@@ -10,3 +10,7 @@ input[type="number"], textarea {
 .list-group a, list-group-item {
     background-color: #FDF6EC !important;
 }
+
+.text-center {
+    color: #E6B325;
+}

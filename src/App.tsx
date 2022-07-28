@@ -27,8 +27,8 @@ const App = () => {
       <NavBar />
       {/* <SignIn /> */}
       {/* <SignUp /> */}
-      <UserDashBoard bookList={bookData} userDataList={userData[0]}/>
-      {/* <AdminDashBoard bookList={bookData}/> */}
+      {/* <UserDashBoard bookList={bookData} userDataList={userData[0]}/> */}
+      <AdminDashBoard bookList={bookData}/>
       </div>
     </div>
   );

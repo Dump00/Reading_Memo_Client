@@ -1,0 +1,12 @@
+header {
+    border: 2px solid #E6B325;
+}
+
+.navbar {
+    background-color: #F4F1EA;
+}
+
+.header-title {
+    color: #E6B325;
+    font-family: 'Rampart One', cursive;
+}

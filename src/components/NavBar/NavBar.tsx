@@ -2,14 +2,11 @@ import './navbar.css'
 
 const NavBar = () => {
     return(
-  <header className="col-8 m-auto blog-header rounded py-3">
-    <div className="row flex-nowrap justify-content-between align-items-center">
-      <div className="text-center">
-        <h2 className="header-title">Reading Memo</h2>
-      </div>
-    </div>
-  </header>
+      <nav className="navbar navbar-expand-lg col-8 m-auto blog-header rounded py-3">
+          <h2 className="header-title">Reading Memo</h2>
+    </nav>
     )
 }
 
 export default NavBar
+

@@ -26,10 +26,10 @@ const App = () => {
     <div className="container-fluid">
       <div className="col-12 m-auto">
       <NavBar />
-      <SignIn />
+      {/* <SignIn /> */}
       {/* <SignUp /> */}
       {/* <UserDashBoard bookList={bookData} userDataList={userData[0]}/> */}
-      {/* <AdminDashBoard bookList={bookData}/> */}
+      <AdminDashBoard bookList={bookData}/>
       <Footer />
       </div>
     </div>

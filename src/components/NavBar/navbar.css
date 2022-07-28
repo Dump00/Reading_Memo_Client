@@ -2,13 +2,19 @@
 
 nav {
     border: 2px solid #E6B325;
+    background-color: #F4F1EA;
 }
 
-.blog-header {
-    background-color: #F4F1EA;
+.fw-bold {
+    color: #E6B325;
 }
 
 .header-title {
     color: #E6B325;
     font-family: 'Rampart One', cursive;
+    margin-left: 25px;
+}
+
+.nav-item {
+    margin-right: 20px;
 }

@@ -4,22 +4,29 @@ import NavBar from "./components/NavBar/NavBar";
 import SignIn from "./components/SignIn/SignIn";
 import SignUp from "./components/SignUp/SignUp";
 import UserDashBoard from "./components/UserDashBoard/UserDashBoard";
-import DATA from "./model/userdata";
+import Book from "./model/Book";
+import BOOKS from "./model/bookdata";
+import USER_DATA from './model/userdata'
+
 
 const App = () => {
 
-  const[data, setData] = useState(DATA)
+  const[userData, setUserData] = useState(USER_DATA)
+  const[bookData, setBookData] = useState<Book[]>(BOOKS)
 
-  console.log(data);
+  console.log(userData);
+  console.log(bookData);
+  
+  
   
 
   return (
     <div className="container">
       <NavBar />
-      <SignIn />
+      {/* <SignIn /> */}
       {/* <SignUp /> */}
-      {/* <UserDashBoard />
-      <AdminDashBoard /> */}
+      {/* <UserDashBoard /> */}
+      <AdminDashBoard bookList={bookData}/>
     </div>
   );
 }

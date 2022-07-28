@@ -7,6 +7,7 @@ import UserDashBoard from "./components/UserDashBoard/UserDashBoard";
 import Book from "./model/Book";
 import BOOKS from "./model/bookdata";
 import USER_DATA from './model/userdata'
+import './App.css'
 
 
 const App = () => {
@@ -21,12 +22,14 @@ const App = () => {
   
 
   return (
-    <div className="container">
+    <div className="container-fluid">
+      <div className="col-12 m-auto">
       <NavBar />
       {/* <SignIn /> */}
       {/* <SignUp /> */}
-      {/* <UserDashBoard /> */}
+      {/* <UserDashBoard bookList={bookData} /> */}
       <AdminDashBoard bookList={bookData}/>
+      </div>
     </div>
   );
 }

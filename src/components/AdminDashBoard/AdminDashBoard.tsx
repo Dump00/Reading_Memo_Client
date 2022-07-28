@@ -33,7 +33,7 @@ const AdminDashBoard: React.FC<{bookList: Book[]}> = ({bookList}) => {
     }
 
     return(
-        <div className="row mt-5">
+        <div className="row mt-5 col-8 m-auto">
             <div className="col-6">
                 <div className="col-8 m-auto">
                 <input onChange={searchBooks} type="text" id="inputText" className="form-control" placeholder="Search Here"/>

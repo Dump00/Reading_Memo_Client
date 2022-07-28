@@ -9,10 +9,18 @@ nav {
     color: #E6B325;
 }
 
+.fw-bold:hover {
+    color: #FFCE45;
+}
+
 .header-title {
     color: #E6B325;
     font-family: 'Rampart One', cursive;
     margin-left: 25px;
+}
+
+.header-title:hover {
+    color: #FFCE45;
 }
 
 .nav-item {

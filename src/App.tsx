@@ -27,9 +27,9 @@ const App = () => {
       <div className="col-12 m-auto">
       <NavBar />
       {/* <SignIn /> */}
-      {/* <SignUp /> */}
+      <SignUp />
       {/* <UserDashBoard bookList={bookData} userDataList={userData[0]}/> */}
-      <AdminDashBoard bookList={bookData}/>
+      {/* <AdminDashBoard bookList={bookData}/> */}
       <Footer />
       </div>
     </div>

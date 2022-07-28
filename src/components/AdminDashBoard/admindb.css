@@ -9,8 +9,13 @@ input[type="number"], textarea {
 
 .list-group a, list-group-item {
     background-color: #FDF6EC !important;
+    color: #E6B325;
 }
 
 .text-center {
     color: #E6B325;
+}
+
+.list-group a:hover {
+    color: #FFCE45;
 }

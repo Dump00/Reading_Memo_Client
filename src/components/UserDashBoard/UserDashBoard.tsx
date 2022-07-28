@@ -37,8 +37,8 @@ const UserDashBoard: React.FC<{bookList: Book[], userDataList: User}> = ({bookLi
                 <div className="col-8 m-auto">
                 <input onChange={searchBooks} type="text" id="inputText" className="form-control" placeholder="Search Here"/>
                 <div className="list-group mt-2">
-                    {searchedData?.length == 0  ? <p className="m-auto">Serach Books!</p> :
-                    searchedData.slice(0, 5).map(book => <a href="#" key={book.id} className="list-group-item list-group-item-action">{book.title}</a>)}
+                    {searchedData?.length == 0  ? <p className="m-auto fw-bold">Serach Books!</p> :
+                    searchedData.slice(0, 5).map(book => <a href="#" key={book.id} className="list-group-item list-group-item-action fw-bold">{book.title}</a>)}
                 </div>
                 </div>
             </div>
@@ -48,13 +48,13 @@ const UserDashBoard: React.FC<{bookList: Book[], userDataList: User}> = ({bookLi
             BOOK SHELVES
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <li><a onClick={handleReading} className="dropdown-item">Currently Reading</a></li>
-                <li><a onClick={handleToRead} className="dropdown-item">To Read</a></li>
-                <li><a onClick={handleRead} className="dropdown-item">Read</a></li>
+                <li><a onClick={handleReading} className="dropdown-item fw-bold"><p className="text-dropdown">Currently Reading</p></a></li>
+                <li><a onClick={handleToRead} className="dropdown-item fw-bold"><p className="text-dropdown">To Read</p></a></li>
+                <li><a onClick={handleRead} className="dropdown-item fw-bold"><p className="text-dropdown">Read</p></a></li>
             </ul>
             </div> 
             <div className="list-group col-8 m-auto mt-2">
-                    {list.slice(0, 5).map(book => <a href="#" key={book.id} className="list-group-item list-group-item-action">{book.title}</a>)}
+                    {list.slice(0, 5).map(book => <a href="#" key={book.id} className="list-group-item list-group-item-action fw-bold">{book.title}</a>)}
                 </div>
             </div>
         </div>

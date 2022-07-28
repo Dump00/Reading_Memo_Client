@@ -39,8 +39,8 @@ const AdminDashBoard: React.FC<{bookList: Book[]}> = ({bookList}) => {
                 <div className="col-8 m-auto">
                 <input onChange={searchBooks} type="text" id="inputText" className="form-control" placeholder="Search Here"/>
             <div className="list-group mt-2">
-                {searchedData?.length == 0  ? <p className="m-auto">Serach Books!</p> :
-                searchedData.slice(0, 5).map(book => <a href="#" key={book.id} className="list-group-item list-group-item-action">{book.title}</a>)}
+                {searchedData?.length == 0  ? <p className="m-auto fw-bold">Serach Books!</p> :
+                searchedData.slice(0, 5).map(book => <a href="#" key={book.id} className="list-group-item list-group-item-action fw-bold">{book.title}</a>)}
             </div>
                 </div>
 

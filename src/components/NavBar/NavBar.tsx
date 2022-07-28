@@ -17,7 +17,7 @@ const NavBar = () => {
       <form className="d-flex">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 mt-3">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#"><p className="fw-bold">fw-bold</p></a>
+          <a className="nav-link" aria-current="page" href="#"><p className="fw-bold">SignIn</p></a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#"><p className="fw-bold">SignUp</p></a>

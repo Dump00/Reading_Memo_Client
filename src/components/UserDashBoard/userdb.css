@@ -5,8 +5,22 @@
 .dropdown-item, .dropdown-menu {
     background-color: #FDF6EC !important;
     cursor: pointer;
+    color: #E6B325;
+}
+
+.text-dropdown {
+    color: #E6B325;
+}
+
+.list-group a, list-group-item {
+    background-color: #FDF6EC !important;
+    color: #E6B325;
 }
 
 .dropdown-item:hover {
-    background-color: #F1CA89  !important;
+    background-color: #FFDA77 !important;
+}
+
+.list-group a:hover {
+    color: #FFCE45;
 }

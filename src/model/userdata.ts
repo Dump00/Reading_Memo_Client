@@ -25,8 +25,8 @@ const readingList = [
 
 const USER_DATA = [
     new User(1, "LadyGaga", readingList, readList, toReadList),
-    new User(1, "FunkyFresh", readingList, readList, toReadList),
-    new User(1, "ChillTime", readingList, readList, toReadList)
+    new User(2, "FunkyFresh", readingList, readList, toReadList),
+    new User(3, "ChillTime", readingList, readList, toReadList)
 ]
 
 export default USER_DATA

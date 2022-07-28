@@ -1,3 +1,12 @@
 .list-group a, list-group-item {
     background-color: #FDF6EC !important;
 }
+
+.dropdown-item, .dropdown-menu {
+    background-color: #FDF6EC !important;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #F1CA89  !important;
+}

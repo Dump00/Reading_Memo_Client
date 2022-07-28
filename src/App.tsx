@@ -15,8 +15,8 @@ const App = () => {
   const[userData, setUserData] = useState(USER_DATA)
   const[bookData, setBookData] = useState<Book[]>(BOOKS)
 
-  console.log(userData);
-  console.log(bookData);
+  // console.log(userData);
+  // console.log(bookData);
   
   
   
@@ -27,7 +27,7 @@ const App = () => {
       <NavBar />
       {/* <SignIn /> */}
       {/* <SignUp /> */}
-      <UserDashBoard bookList={bookData} />
+      <UserDashBoard bookList={bookData} userDataList={userData[0]}/>
       {/* <AdminDashBoard bookList={bookData}/> */}
       </div>
     </div>

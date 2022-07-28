@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
+header {
+    border: 2px solid #E6B325;
+}
+
 .blog-header {
-    background-color: #F1F1F1;
+    background-color: #F4F1EA;
 }
 
 .header-title {
+    color: #E6B325;
     font-family: 'Rampart One', cursive;
 }

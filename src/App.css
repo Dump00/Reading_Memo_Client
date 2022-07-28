@@ -1,6 +1,7 @@
-.container {
+.container-fluid {
   text-align: center;
-  background-color: #FEFBF6;
+  /* background-color: #F2EBE9; */
+  background-color: #F3E9DD;
   min-height: 100vh;
   
 }

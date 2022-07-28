@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Book from "../../model/Book"
+import './admindb.css'
 
 const AdminDashBoard: React.FC<{bookList: Book[]}> = ({bookList}) => {
 
@@ -56,7 +57,7 @@ const AdminDashBoard: React.FC<{bookList: Book[]}> = ({bookList}) => {
                 <div className="mb-3">
                     <input value={pagesIn} onChange={handlePagesChange} type="number" className="form-control" id="bkPages" placeholder="Pages" />
                 </div>
-                <button type="button" onClick={addNewBook} className="btn btn-dark col-12">Submit</button>
+                <button type="button" onClick={addNewBook} className="btn btn-parimary col-12">Submit</button>
                 </form>
             </div>
         </div>

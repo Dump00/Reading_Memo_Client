@@ -1,0 +1,12 @@
+/* input[type="text"], textarea {
+    background-color: #FDF6EC;
+    background-color: #95CD41;
+}
+input[type="number"], textarea {
+    background-color: #FDF6EC;
+    background-color: #95CD41;
+} */
+
+.list-group a, list-group-item {
+    background-color: #FDF6EC !important;
+}

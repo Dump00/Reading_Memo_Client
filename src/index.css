@@ -1,3 +1,12 @@
-body {
-  background-color: #6E85B7;
+input[type="text"], input[type="number"], input[type="password"], input[type="email"]  textarea {
+  background-color: #FDF6EC;
+}
+
+.btn {
+  background-color: #F1CA89 !important;
+  border: 1px solid #EADCA6 !important;
+}
+
+.btn:hover {
+  background-color: #E6B325 !important;
 }

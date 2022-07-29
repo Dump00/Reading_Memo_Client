@@ -19,7 +19,6 @@ const SignUp = () => {
                     <label htmlFor="floatingPassword">Password</label>
                 </div>
                 <button className="w-100 btn btn-lg btn-dark" type="submit">Sign Up</button>
-                <p className="mt-5 mb-3 text-muted fw-bold">&copy; 2022</p>
             </form>
         </main>
     </div>

@@ -6,7 +6,7 @@ const SignIn = () => {
         <div className="text-center">
             <main className="form-signin">
                 <form>
-                    <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
+                    <h1 className="h3 mb-3 fw-normal">Please Sign In</h1>
                     <div className="form-floating mb-2">
                         <input type="text" className="form-control" id="floatingInput" placeholder="username" />
                         <label htmlFor="floatingInput">UserName</label>

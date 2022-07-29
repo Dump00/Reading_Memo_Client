@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './navbar.css'
 
 const NavBar = () => {
@@ -13,19 +14,19 @@ const NavBar = () => {
             <form className="d-flex">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 mt-3">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#"><p className="fw-bold">SignIn</p></a>
+                <NavLink className="nav-link" aria-current="page" to="/"><p className="fw-bold">SignIn</p></NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><p className="fw-bold">SignUp</p></a>
+                <NavLink className="nav-link" to="/signup"><p className="fw-bold">SignUp</p></NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><p className="fw-bold">User DashBoard</p></a>
+                <NavLink className="nav-link" to="/userdb"><p className="fw-bold">User DashBoard</p></NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><p className="fw-bold">Admin DashBoard</p></a>
+                <NavLink className="nav-link" to="/admindb"><p className="fw-bold">Admin DashBoard</p></NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><p className="fw-bold">LogOut</p></a>
+                <NavLink className="nav-link" to="/"><p className="fw-bold">LogOut</p></NavLink>
               </li>
             </ul>
             </form>

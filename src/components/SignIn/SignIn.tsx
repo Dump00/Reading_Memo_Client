@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './signin.css'
 
 const SignIn = () => {
@@ -18,7 +19,7 @@ const SignIn = () => {
                     <div className="form-floating mb-2">
                     <p>Not a member yet?</p>
                     </div>
-                    <button className="w-100 btn btn-lg btn-dark" type="submit">Sign Up</button>
+                    <NavLink to="/" className="w-100 btn btn-lg btn-dark" type="submit">Sign Up</NavLink>
                 </form>
             </main>
         </div>

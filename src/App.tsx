@@ -16,11 +16,6 @@ const App = () => {
   const[userData, setUserData] = useState(USER_DATA)
   const[bookData, setBookData] = useState<Book[]>(BOOKS)
 
-  // console.log(userData);
-  // console.log(bookData);
-  
-  
-  
 
   return (
     <div className="container-fluid">
